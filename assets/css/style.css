@@ -1,77 +1,110 @@
-:root{--b:#343f50;
---w:white;
---h: 'Open Sans', sans-serif;
---gras:800;
---regular:400;
---light:300;
---value:10px;
---bc:#139df2;}
-
-.bleu{background: var(--b);
-min-height: 30vh;
+:root {
+  --b: #343f50;
+  --w: white;
+  --h: "Open Sans", sans-serif;
+  --gras: 800;
+  --regular: 400;
+  --light: 300;
+  --value: 10px;
+  --bc: #139df2;
 }
 
-.blanc{background: var(--w);
-padding-top: 8vh;}
+.bleu {
+  background: var(--b);
+  min-height: 30vh;
+}
 
-section{min-height: 100vh;
-padding: var(--value);}
+.blanc {
+  background: var(--w);
+  padding-top: 8vh;
+}
 
+section {
+  min-height: 100vh;
+  padding: var(--value);
+}
 
+h1 {
+  font-family: var(--h);
+  font-weight: var(--gras);
+  color: white;
+}
 
-h1{font-family: var(--h);
-font-weight: var(--gras);
-color: white;}
+.photo {
+  width: 200px;
+  height: 200px;
+  margin: 5% auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
 
-.photo{width: 200px;
-height: 200px;
-margin: 5% auto;
-border-radius: 50%;
-overflow: hidden;}
+.gaucheh2 {
+  color: var(--w);
+  font-weight: var(--gras);
+  font-size: 20px;
+  text-align: center;
+}
 
-.gaucheh2{color: var(--w);
-font-weight: var(--gras);
-font-size: 20px;
-text-align: center;}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
 
-ul{list-style: none;
-padding-left: 0;}
+.contactg {
+  text-align: center;
+  display: block;
+  height: 10vh;
+  width: 100%;
+  color: white;
+}
 
-.contactg{text-align: center;
-display: block;
-height: 10vh;
-width: 100%;
-color: white;}
+a {
+  text-decoration: none;
+  color: white;
+}
 
-a{text-decoration: none;
-color: white;}
+hgroup {
+  display: block;
+  text-align: center;
+  margin-bottom: 80px;
+}
 
-hgroup{display: block;
-text-align: center;
-margin-bottom: 80px;}
+.formation {
+  text-align: center;
+  color: white;
+  padding-bottom: 2vh;
+}
 
-.formation{text-align: center;
-color: white;
-padding-bottom: 2vh;}
+.gaucheh3 {
+  color: white;
+  font-weight: var(--light);
+  text-align: center;
+}
 
-.gaucheh3{color: white;
-font-weight: var(--light);
-text-align: center;}
+h4 {
+  color: white;
+  text-align: center;
+  font-weight: var(--light);
+}
 
-h4{color: white;
-text-align: center;
-font-weight: var(--light);}
+.propos {
+  text-align: center;
+}
 
-.propos{text-align: center;}
+.exp {
+  margin-top: 10vh;
+}
 
-.exp{margin-top: 10vh;}
+.droit {
+  color: black;
+  font-weight: var(--gras);
+  padding-top: 5vh;
+}
 
-.droit{color: black;
-    font-weight: var(--gras);
-padding-top: 5vh;}
+.exp2 {
+  margin-bottom: 10vh;
+}
 
-    .exp2{margin-bottom: 10vh;}
-
-    body{text-align: center;}
-
-
+body {
+  text-align: center;
+}
